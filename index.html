@@ -31,57 +31,7 @@
   <script type="text/javascript" src="js/material.js"></script>
   <style>
 
-.oym-tappa {
-  background: #fafafa;
-}
 
-.oym-tappa-header {
-  height: 40%;
-  background: url('images/{{video}}') no-repeat center center;
-  background-size: cover;
-}
-
-div.mdl-layout-icon {
-  display: inline;
-  float: left;
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-div.mdl-layout__header-row {
-  background-color: rgba(0, 0, 0, 0.3);
-    padding-right: 48px;
-}
-@media(min-width: 512px) {
-  .oym-tappa-header {
-    height: 50%;
-  }
-}
-
-h2.mdl-card__title-text {
-  margin-top: 20px !important;
-}
-
-main {
-  padding: 20px;
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-footer.mdl-mini-footer {
-  padding: 10px;
-}
-
-#pause {
-  display: none;
-}
-
-div.numeroTappa {
-  font-size: 48px;
-}
 
   </style>
 </head>
@@ -89,68 +39,7 @@ div.numeroTappa {
 <body>
   <div id="content">
 
-<div class="oym-tappa mdl-layout mdl-js-layout">
-  <header class="oym-tappa-header mdl-layout-header mdl-layout__header--transparent">
-    <div class="mdl-layout-icon md-48"><i class="material-icons">close</i></div>
-    <div class="mdl-layout__header-row">
-      <span class="mdl-layout__title"></span>
-      <div class="mdl-layout-spacer"></div>
-      <nav class="mdl-navigation">
-        <i class="material-icons">build</i>
-        <i class="material-icons">camera_enhance</i>
-        <i class="material-icons">add_a_photo</i>
-        <i class="material-icons">announcement</i>
-      </nav>
-    </div>
-    <div class="mdl-card__menu">
-      <button id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon">
-        <i class="material-icons">more_vert</i>
-      </button>
-      <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right">
-        <li class="mdl-menu__item">Some Action</li>
-        <li class="mdl-menu__item">Another Action</li>
-        <li disabled class="mdl-menu__item">Disabled Action</li>
-        <li class="mdl-menu__item">Yet Another Action</li>
-      </ul>
-    </div>
-  </header>
-  <main>
-    <!-- <div><img class="testata" src="images/{{video}}"></div> -->
-    <h2 class="mdl-card__title-text">{{tappaPlusOne}})  {{titolo}}</h2>
-    <p>
-      {{abstract}}
-    </p>
-  </main>
-  <footer class="mdl-mini-footer">
-    <div class="mdl-mini-footer__left-section numero-tappa">
-      {{tappa}}
-    </div>
-    <div class="mdl-mini-footer__middle-section">
-      {{titolo}}
-      <br/> {{stringhe.premiPlay}}
-    </div>
-    <div class="mdl-mini-footer__right-section">
-      <a href="#" id="previous">
-        <i class="material-icons md-48">skip_previous</i>
-      </a>
-      <a href="#" id="play">
-        <i class="material-icons md-48">play_arrow</i>
-      </a>
-      <a href="" id="pause">
-        <i class="material-icons md-48">pause</i>
-      </a>
-      <!-- /home/percorso/{{museo}}/consigliati/{{percorso}}/{{next}} -->
-      <a href="#" id="next">
-        <i class="material-icons md-48">skip_next</i>
-      </a>
-    </div>
-    <div class="mdl-mini-footer__bottom-section">
-      <audio id="audio">
-        <source src="media/esempio speaker.mp3" type="audio/mpeg">
-      </audio>
-    </div>
-  </footer>
-</div>
+
 
   </div>
 </body>
