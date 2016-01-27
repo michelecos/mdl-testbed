@@ -1,0 +1,78 @@
+/* Disable ugly boxes around images in IE10 */
+
+a img {
+  border: 0px;
+}
+
+/*
+ * Modifiche agli stili MDL
+ */
+
+body {
+  margin: 0;
+  background-image: url("../images/background-blur.png");
+  /*background-color: #8fc9f9;*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Roboto, sans-serif;
+}
+
+mdl-layout__header {
+  color: #fafafa;
+  background-color: #41a4f4;
+}
+
+/* Regole per dimensionamento icone */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Evidenziazione tab in giallo */
+
+.mdl-tabs__tab-bar {
+  background-color: #41a4f4;
+}
+
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
+  /*height: 5px;*/
+}
+
+.oym-page {
+  background-color: #fafafa;
+}
+
+a.mdl-navigation__link {
+  font-size: 14px;
+  color: rgba(65, 65, 65, 0.9);
+}
+
+.android-fab {
+  position: absolute;
+  right: 20%;
+  bottom: -26px;
+  z-index: 3;
+  background: #64ffda !important;
+  color: black !important;
+}
+
+/*
+ *  Stili specifici Open YOur Museum
+ */
+
+.oym-icon--light {
+  color: #ffffff;
+}
+
+.oym-icon--dark {
+  color: rgba(65, 65, 65, 0.9);
+}
+
+i.material-icons.oym-icon--dark {
+    color: rgba(65, 65, 65, 0.9);
+}
+
+div.page-content {
+    /*background-color: #41a4f4;*/
+}
